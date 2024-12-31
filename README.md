@@ -48,18 +48,13 @@ $\frac{\partial z}{\partial B} = 1$
 
 #### Error term
 
-$\sigma^{\prime} =$ sigmoid prime
-
-$\delta =$ error term
-
-$l =$ layer
-
-$z = W \cdot a + B$ 
-
-$W = $
-weights matrix 
-
-$C^{\prime} = $ 
+- $\sigma^{\prime} =$ sigmoid prime
+- $\delta =$ error term
+- $l =$ layer
+- $z = W \cdot a + B$
+- $W = $
+weights matrix
+- $C^{\prime} = $ 
 cost derivative
 
 if $n = l$ (output layer):
