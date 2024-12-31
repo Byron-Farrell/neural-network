@@ -60,11 +60,13 @@ $W = $ weights matrix
 
 $C^{\prime} = $ cost derivative
 
+if $n = l$ (output layer):
 
-$\delta^{[l]} = \begin{cases}
-C^{\prime}(a^{[n]}) \cdot \sigma^{\prime}(z^{[n]}) & \text{if } l = n \text{ (output layer) }\\
-(W^{[l+1]})^T \cdot \delta^{[l+1]} \cdot \sigma^{\prime}(z^{[l]}) & \text{if } l < n \text{ (hidden layers) }
-\end{cases}$
+$\delta^{[l]} = C^{\prime}(a^{[n]}) \cdot \sigma^{\prime}(z^{[n]})$ 
+
+if $l < n$ (hidden layers):
+
+$\delta^{[l]} = (W^{[l+1]})^T \cdot \delta^{[l+1]} \cdot \sigma^{\prime}(z^{[l]})$
 
 
 #### weight gradient
