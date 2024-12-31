@@ -56,9 +56,11 @@ $l =$ layer
 
 $z = W \cdot a + B$ 
 
-$W = $ weights matrix 
+$W = $
+weights matrix 
 
-$C^{\prime} = $ cost derivative
+$C^{\prime} = $ 
+cost derivative
 
 if $n = l$ (output layer):
 
